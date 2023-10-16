@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to right, #ff6b6b, #6b47ff);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #000000);
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -9,9 +10,29 @@ body {
     min-height: 100vh;
 }
 
+.light-container {
+    position: absolute;
+    top: 10px;
+    width: 290px;
+    height:19px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.light {
+    position: absolute;
+    top: 4.9px;
+    width: 280px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
 .bio-container {
-    background-color: rgba(255, 255, 255, 0.285);
-    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.057);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     padding: 20px;
@@ -56,4 +77,14 @@ h2 {
 
 .social-links a img:hover {
     transform: scale(1.2);
+}
+
+#github-link {
+    position: absolute;
+    bottom: 10px;
+}
+
+#github-icon {
+    width: 30px;
+    height: 30px;
 }
